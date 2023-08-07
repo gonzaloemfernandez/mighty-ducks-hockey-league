@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS";
+}
+
+/**Header */
+
+header {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+#banner {
+  background-image: url(../images/banner-2.jpg);
+  /* Ajustar la imagen al tamaño del header */
+  height: 25vh;
+  width: auto;
+
+  background-position: 20% 25%;
+  margin: auto;
+}
+
+#tituloHeader {
+  height: auto;
+  width: auto;
+
+  margin-left: 1%;
+  position: relative;
+}
+
+/* Estilos para el título y el texto */
+#tituloHeader h1 {
+  color: #000000;
+  font-size: 2.5rem;
+
+  /* text-shadow: 2px 3px 2px #fff; */
+}
+
+#pageHeader {
+  width: auto;
+    border: solid 1px #000000;
+
+}
+
+#pageHeader h2 {
+  color: #000000;
+  text-align: center;
+  margin: auto;
+}
+
+/** NAV    */
+
+#navigationBar {
+  height: auto;
+
+  top: 6.5%;
+  right: 15%;
+
+  position: absolute;
+  display: inline-block;
+}
+
+#navigationBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigationBar ul li {
+  display: inline;
+}
+
+#navigationBar ul li a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.botonPaginaActual {
+  -moz-box-shadow: inset 0px 1px 0px 0px #9acc85;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #9acc85;
+  box-shadow: inset 0px 1px 0px 0px #9acc85;
+  background-color: #74ad5a;
+  border: 1px solid #3b6e22;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+
+  /*Box shadow*/
+  -webkit-box-shadow: 2px 3px 1px #000000;
+  box-shadow: 2px 2px 1px 0px #000000;
+}
+.botonPaginaActual:hover {
+  background-color: #68a54b;
+}
+.botonPaginaActual:active {
+  position: relative;
+  top: 1px;
+}
+
+.botonPaginaParaRedirigir {
+  -moz-box-shadow: inset 0px 1px 0px 0px rgb(67, 139, 233);
+  background-color: rgb(53, 113, 190);
+  border: 1px solid #124d77;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+
+  /*Box shadow*/
+  -webkit-box-shadow: 2px 3px 1px #000000;
+  box-shadow: 2px 2px 1px 0px #000000;
+}
+.botonPaginaParaRedirigir:hover {
+  background-color: #0061a7;
+}
+.botonPaginaParaRedirigir:active {
+  position: relative;
+  top: 1px;
+}
+
+/** LOGO*/
+
+#logo {
+  width: 20%;
+  height: auto;
+  position: absolute;
+  float: left;
+  
+}
+
+#logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  /*width and height 20% less than the #logo*/
+  width: 8em;
+  height: 8em;
+  
+}
+
+/** MAIN*/
+
+main {
+  width: 100%;
+  height: auto;
+  margin-top: 3%;
+}
+
+#contenedor {
+
+  height: auto;
+  width: 80%;
+  float: right;
+}
+
+
+
+.sangriaContenedor{
+  margin-left: 1rem;
+
+}
+
+.marginTop{
+  margin-top: 1rem;
+}
