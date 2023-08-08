@@ -21,6 +21,7 @@ header {
 
   background-position: 20% 25%;
   margin: auto;
+  
 }
 
 #tituloHeader {
@@ -41,8 +42,7 @@ header {
 
 #pageHeader {
   width: auto;
-    border: solid 1px #000000;
-
+  border: solid 1px #000000;
 }
 
 #pageHeader h2 {
@@ -136,18 +136,16 @@ header {
   height: auto;
   position: absolute;
   float: left;
-  
 }
 
 #logo img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+
   /*width and height 20% less than the #logo*/
   width: 8em;
   height: 8em;
-  
 }
 
 /** MAIN*/
@@ -159,19 +157,15 @@ main {
 }
 
 #contenedor {
-
   height: auto;
   width: 80%;
   float: right;
 }
 
-
-
-.sangriaContenedor{
+.sangriaContenedor {
   margin-left: 1rem;
-
 }
 
-.marginTop{
+.marginTop {
   margin-top: 1rem;
 }
