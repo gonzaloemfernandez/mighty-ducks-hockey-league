@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon -->
     <link
       rel="shortcut icon"
       href="./assets/icons/logo-ico.ico"
-      type="image/x-icon"
-    >
+      type="image/x-icon" />
+
     <!-- Css -->
-    <!-- <link rel="stylesheet" href="./assets/styles/main.css" /> -->
-    <link rel="stylesheet" href="./assets/styles/main2.css" >
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <!-- <link rel="stylesheet" href="./assets/styles/estilos.css" /> -->
 
     <!--Titulo-->
     <title>Mighty Ducks</title>
@@ -19,60 +19,60 @@
 
   <body>
     <header>
-      <div id="tituloHeader">
+      
+      <!-- * Menu de navegación -->
+      <div id="navigationMenu">
+        <figure id="logo">
+          <img
+            src="./assets/images/logo.png"
+            alt="Logo Mighty Ducks Hockey League"
+            width="100"
+            title="Logo Mighty Ducks Hockey League" />
+        </figure>
+
         <h1>Mighty Ducks Hockey League</h1>
-      </div>
 
-      <div id="banner"></div>
-      <div id="pageHeader">
-        <h2>Upcoming Events</h2>
-      </div>
-    </header>
-
-    <nav id="navigationBar">
-      <ul>
-        <li>
+        <!-- Navigation Bar -->
+        <nav id="navigationBar">
           <a class="botonPaginaActual" href="#">Home</a>
-        </li>
-        <li>
+          <a class="botonPaginaParaRedirigir" href="./assets/pages/game-information.html">Games</a>
+          <a class="botonPaginaParaRedirigir" href="./assets/pages/rules.html"
+            >Rules</a
+          >
+          
           <a class="botonPaginaParaRedirigir" href="./assets/pages/about.html"
             >About
           </a>
-        </li>
-        <li>
           <a class="botonPaginaParaRedirigir" href="./assets/pages/contact.html"
-            >Contact</a
-          >
-        </li>
-      </ul>
-    </nav>
+            >Contact
+          </a>
+        </nav>
+      </div>
+
+      <div id="heroBanner"></div>
+    </header>
 
     <main>
-      <figure id="logo">
-        <img
-          src="./assets/images/logo.png"
-          alt="Logo Mighty Ducks Hockey League"
-          width="100"
-          title="Logo Mighty Ducks Hockey League"
-        >
-      </figure>
+      <div id="pageTittle">
+        <h2>Upcoming Events</h2>
+      </div>
 
-      <div id="contenedor">
-        <article class="marginTop">
+      <section id="contenedor">
+        <article >
           <h4>August 4</h4>
           <p class="sangriaContenedor">MDSL Fundraiser</p>
         </article>
-        <article class="marginTop">
+        <article >
           <h4>August 16</h4>
           <p class="sangriaContenedor">Season Kick-off: Meet the Teams</p>
         </article>
-        <article class="marginTop">
+        <article >
           <h4>September 1</h4>
           <p class="sangriaContenedor">
             First Game of the Season (Check Game Schedule for details)
           </p>
         </article>
-      </div>
+      </section>
     </main>
 
     <footer></footer>

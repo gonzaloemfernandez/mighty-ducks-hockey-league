@@ -8,49 +8,50 @@
     <link
       rel="shortcut icon"
       href="../icons/logo-ico.ico"
-      type="image/x-icon"
-    />
+      type="image/x-icon" />
 
     <!-- css -->
-    <!-- <link rel="stylesheet" href="../styles/main.css" /> -->
-    <link rel="stylesheet" href="../styles/main2.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="../styles/main.css" />
+    <!-- <link rel="stylesheet" href="../styles/estilos.css" /> -->
 
     <title>About</title>
   </head>
 
   <body>
     <header>
-      <div id="tituloHeader">
+      <!-- * Menu de navegación -->
+      <div id="navigationMenu">
+        <figure id="logo">
+          <img
+            src="../images/logo.png"
+            alt="Logo Mighty Ducks Hockey League"
+            width="100"
+            title="Logo Mighty Ducks Hockey League" />
+        </figure>
+
         <h1>Mighty Ducks Hockey League</h1>
+
+        <!-- Navigation Bar -->
+        <nav id="navigationBar">
+          <a class="botonPaginaParaRedirigir" href="../../index.html">Home</a>
+          <a class="botonPaginaParaRedirigir" href="./game-information.html"
+            >Games</a
+          >
+          <a class="botonPaginaParaRedirigir" href="./rules.html">Rules</a>
+
+          <a class="botonPaginaActual" href="#">About </a>
+          <a class="botonPaginaParaRedirigir" href="./contact.html">Contact </a>
+        </nav>
       </div>
 
-      <div id="banner"></div>
-      <div id="pageHeader">
+      <div id="heroBanner"></div>
+    </header>
+
+    <main>
+      <div id="pageTittle">
         <h2>About</h2>
       </div>
-    </header>
-    <nav id="navigationBar">
-      <ul>
-        <li>
-          <a class="botonPaginaParaRedirigir" href="../../index.html">Home</a>
-        </li>
-        <li>
-          <a class="botonPaginaActual" href="#">About </a>
-        </li>
-        <li>
-          <a class="botonPaginaParaRedirigir" href="./contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <figure id="logo">
-        <img
-          src="../images/logo.png"
-          alt="Logo Mighty Ducks Hockey League"
-          width="100"
-          title="Logo Mighty Ducks Hockey League"
-        />
-      </figure>
 
       <div id="contenedor">
         <section class="marginTop">
@@ -85,7 +86,6 @@
           </p>
         </section>
       </div>
-      
     </main>
   </body>
 </html>
