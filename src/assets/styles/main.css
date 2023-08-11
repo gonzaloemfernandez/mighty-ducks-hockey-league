@@ -95,7 +95,7 @@ h1 {
 #heroBanner {
   background-image: url(../images/banner-2.jpg);
   /* Ajustar la imagen al tamaño del header */
-  height: 25vh;
+  height: 13vh;
   width: auto;
 
   background-position: 20% 25%;
