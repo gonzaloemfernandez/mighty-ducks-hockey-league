@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Game Information</title>
 
     <!-- Favicon -->
     <link
       rel="shortcut icon"
       href="../icons/logo-ico.ico "
-      type="image/x-icon" />
+      type="image/x-icon" >
     <!-- css -->
-    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/main.css" >
   </head>
 
   <body>
@@ -23,17 +23,20 @@
             src="../images/logo.png"
             alt="Logo Mighty Ducks Hockey League"
             width="100"
-            title="Logo Mighty Ducks Hockey League" />
+            title="Logo Mighty Ducks Hockey League" >
         </figure>
 
         <h1>Mighty Ducks Hockey League</h1>
 
         <!-- Navigation Bar -->
-        <nav id="navigationBar">
+        <nav>
           <a class="botonPaginaParaRedirigir" href="../../index.html">Home</a>
 
           <a class="botonPaginaActual" href="#">Games</a>
           <a class="botonPaginaParaRedirigir" href="./rules.html">Rules</a>
+          <a class="botonPaginaParaRedirigir" href="./registration.html"
+            >Registration</a
+          >
           <a class="botonPaginaParaRedirigir" href="./about.html">About </a>
           <a class="botonPaginaParaRedirigir" href="./contact.html">Contact </a>
         </nav>
@@ -50,7 +53,7 @@
       <section id="contenedor">
         <h3>Fall Schedule</h3>
 
-        <table class="scheduleTable">
+        <table id="scheduleTable">
           <caption>
             *All games takes place on Saturday
           </caption>
@@ -115,6 +118,82 @@
             </tr>
           </tbody>
         </table>
+        <h3>Maps</h3>
+        <table class="mapTable">
+          <thead>
+            <tr>
+              <th>Aj Katzenmaier</th>
+              <th>Howard A Yeager</th>
+              <th>North</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <!-- Aj Katzenmaier -->
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.657018519535!2d-87.63164432494284!3d41.90023276402977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f69da7%3A0x15e198c063fc787c!2sAJ%20Katzenmaier%20Elementary!5e0!3m2!1ses-419!2sar!4v1691873463132!5m2!1ses-419!2sar"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </td>
+              <td>
+                <!-- Howard A Yeager -->
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2866.271741338192!2d-87.85565988712837!3d42.31565779187526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses!2sar!4v1691975442610!5m2!1ses!2sar"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </td>
+              <td>
+                <!-- North -->
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1607.2703624195044!2d-87.83532108975528!3d42.36923548664549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fed60b13aa0a7%3A0xfe6df83b0f197ed6!2sNorth%20Elementary%20School!5e0!3m2!1ses-419!2sar!4v1691975133441!5m2!1ses-419!2sar"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="mapTable">
+          <thead>
+            <tr>
+              <th>South</th>
+              <th>Greenbay</th>
+              <th>Marjorie P Hart</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <!-- South -->
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1013.3557265282811!2d-87.85545796890061!3d42.317176140065975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac2135a21%3A0x8ce88e90b96bbec1!2sSouth%20Elementary%20School%20(K-5)!5e0!3m2!1ses!2sar!4v1691975014832!5m2!1ses!2sar"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </td>
+              <td>
+                <!-- Greenbay -->
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1144.7164151981792!2d-87.63847417801198!3d41.91377321900332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3407260c45b%3A0xb351205fae50c6f3!2sGreenbay%20Elementary!5e0!3m2!1ses-419!2sar!4v1691975091520!5m2!1ses-419!2sar"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </td>
+              <td>
+                <!-- Marjorie P Hart -->
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1080.1980121701947!2d-87.64667893066631!3d41.92975061901926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie%20P%20Hart%20Elementary!5e0!3m2!1ses-419!2sar!4v1691975234695!5m2!1ses-419!2sar"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </td>
+            </tr>
+          </tbody>
+        </table>
 
         <div id="aditionalInformation">
           <div class="additionalInformation">
@@ -141,7 +220,7 @@
             </div>
 
             <div class="additionalInformation">
-             <strong>Email</strong>
+              <strong>Email</strong>
               <a href="michael.randall@hochey.org" target="_blank"
                 >michael.randall@hochey.org</a
               >
@@ -150,5 +229,6 @@
         </div>
       </section>
     </main>
+    <footer></footer>
   </body>
 </html>
